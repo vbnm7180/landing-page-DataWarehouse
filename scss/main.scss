@@ -100,15 +100,7 @@ body {
     justify-content: center;
     align-items: start;
     padding-top: 80px;
-}
-
-.comp-info1__container::after {
-    content: '';
-    position: absolute;
-    left: 363px;
-    top: 176px;
-    z-index: -10;
-    background: url(/images/info1.svg) no-repeat;
+    padding-bottom: 100px;
 }
 
 .comp_info1__header {
@@ -137,7 +129,6 @@ body {
 .comp-info1__img {
     position: absolute;
     left: 363px;
-    //top: 96px;
     top: 176px;
     z-index: -10;
 }
@@ -156,9 +147,17 @@ body {
     /*Инфо-блок 1*/
     .comp-info1__container {
         width: 768px;
-        overflow: hidden;
+        padding-left: 15px;
+        padding-right: 15px;
     }
-    .comp-info1__img {}
+    .comp-info1__img {
+        top: auto;
+        left: auto;
+        right: 0;
+        bottom: 100px;
+        width: 387px;
+        height: 230px;
+    }
 }
 
 //Мобилки
@@ -192,5 +191,35 @@ body {
     }
     .arrow {
         margin-left: 7px;
+    }
+    /*Инфо-блок 1*/
+    .comp-info1__container {
+        width: 100%;
+        align-items: center;
+    }
+    .comp-info1__img {
+        display: none;
+    }
+    .comp_info1__header {
+        width: 100%;
+        font-size: 30px;
+        text-align: center;
+    }
+    .comp-info1__text {
+        width: 100%;
+        text-align: center;
+        padding: 0 15px;
+    }
+}
+
+//Для картинки в инфо 1
+@media screen and (min-width:1120px) and (max-width:1387px) {
+    .comp-info1__img {
+        left: auto;
+        top: auto;
+        bottom: 100px;
+        right: 0;
+        width: 688px;
+        height: 339px;
     }
 }
