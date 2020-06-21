@@ -179,6 +179,9 @@ body {
     padding-left: 15px;
     padding-right: 15px;
   }
+  .comp_info1__header {
+    font-size: 60px;
+  }
   .comp-info1__img {
     top: auto;
     left: auto;
@@ -244,6 +247,10 @@ body {
     width: 100%;
     text-align: center;
     padding: 0 15px;
+  }
+  .comp-info1__button {
+    width: 170px;
+    height: 50px;
   }
 }
 
