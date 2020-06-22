@@ -375,6 +375,154 @@ body {
   left: -113px;
 }
 
+/*Слайдер*/
+/* Слайдер */
+/* Слайдер запущен */
+/* Слайдер с точками */
+/* Ограничивающая оболочка */
+.slick-list {
+  overflow: hidden;
+}
+
+/* Лента слайдов */
+.slick-track {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+/* Слайд */
+/* Слайд активный (показывается) */
+/* Слайд основной */
+/* Слайд по центру */
+/* Клонированный слайд */
+/* Стрелка */
+/* Стрелка влево */
+/* Стрелка вправо */
+/* Стрелка не активная */
+/* Точки (булиты) */
+/* Активная точка */
+/* Элемент точки */
+.slider__container {
+  width: 1120px;
+  margin: 0 auto;
+  padding-top: 75px;
+  padding-bottom: 150px;
+}
+
+.slider__wrapper {
+  position: relative;
+  background: #9C69E2;
+  border-radius: 50px;
+  height: 709px;
+}
+
+.slider__wrapper .slick-arrow {
+  position: absolute;
+  bottom: 60px;
+  font-size: 0;
+  width: 42px;
+  height: 16px;
+}
+
+.slider__wrapper .slick-arrow.slick-prev {
+  right: 130px;
+  background: url(/images/inactive-left-arrow.svg) center right no-repeat;
+}
+
+.slider__wrapper .slick-arrow.slick-prev:hover {
+  background: url(/images/active-left-arrow.svg) center right no-repeat;
+}
+
+.slider__wrapper .slick-arrow.slick-next {
+  right: 65px;
+  background: url(/images/inactive-right-arrow.svg) center left no-repeat;
+}
+
+.slider__wrapper .slick-arrow.slick-next:hover {
+  background: url(/images/active-right-arrow.svg) center left no-repeat;
+}
+
+.slider__wrapper .slick-dots {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  left: 93px;
+  bottom: 60px;
+}
+
+.slider__wrapper .slick-dots li button {
+  margin-right: 10px;
+  width: 10px;
+  height: 10px;
+  font-size: 0;
+  background: url(/images/inactive-point.svg) center center no-repeat;
+}
+
+.slider__wrapper .slick-dots li.slick-active {
+  background: url(/images/active-point.svg) center center no-repeat;
+}
+
+.slider__item {
+  width: 645px;
+  height: 330px;
+  border-radius: 20px;
+  -webkit-box-shadow: 0 20px 0 0 rgba(156, 105, 226, 0.3);
+          box-shadow: 0 20px 0 0 rgba(156, 105, 226, 0.3);
+  background-color: #ffffff;
+  padding-top: 60px;
+  padding-bottom: 50px;
+  padding-left: 190px;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
+}
+
+.sl-item__icon {
+  position: absolute;
+  top: 60px;
+  left: 70px;
+}
+
+.sl-item__header {
+  font-family: Avenir;
+  font-size: 18px;
+  font-weight: 900;
+  line-height: 1.6;
+  letter-spacing: 0.09px;
+  color: #212353;
+}
+
+.sl-item__sub-header {
+  font-family: Avenir;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.6;
+  letter-spacing: 0.14px;
+  color: #9c69e2;
+}
+
+.sl-item__text {
+  margin-top: 19px;
+  width: 385px;
+  font-family: Avenir;
+  font-size: 18px;
+  line-height: 1.8;
+  color: #4b5d68;
+}
+
 @media screen and (min-width: 768px) and (max-width: 1119px) {
   /*Навигация*/
   .nav__container {
