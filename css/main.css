@@ -553,17 +553,38 @@ body {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    padding-top: 0;
+    padding-right: 5px;
+    padding-left: 5px;
   }
   .feat2__block {
-    padding: 15px 0;
+    width: 320px;
+    height: 320px;
+    background-size: 100% 100%;
+    padding: 65px 10px 15px 40px;
+    margin: 0;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
-  .info2__header {
-    width: 100%;
+  .feat2__block:nth-child(1),
+  .feat2__block:nth-child(2),
+  .feat2__block:nth-child(3),
+  .feat2__block:nth-child(4) {
+    margin: 0;
+  }
+  .feat2__block:nth-child(2) {
+    background-position: 0px 23px;
+  }
+  .feat2__text {
     text-align: center;
   }
-  .info2__text {
-    width: 100%;
-    text-align: center;
+  .feat2__img {
+    display: none;
+  }
+  .feat2__button {
+    position: relative;
+    bottom: 30px;
   }
 }
 
