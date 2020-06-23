@@ -632,6 +632,16 @@ body {
   }
   .slider__wrapper {
     width: 768px;
+    padding-right: 93px;
+  }
+  .slider__item {
+    width: 582px;
+  }
+  .sl-item__text {
+    width: 350px;
+  }
+  .slick-list::after {
+    visibility: hidden;
   }
 }
 
@@ -774,6 +784,54 @@ body {
   .feat2__button {
     position: relative;
     bottom: 30px;
+  }
+  /*Слайдер*/
+  .slider__container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .slider__wrapper {
+    width: 100%;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .slick-list {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .slider__item {
+    height: 100%;
+    padding: 20px 15px;
+    margin-right: 11px;
+    margin-left: 11px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .sl-item__icon {
+    position: static;
+  }
+  .slider__header {
+    top: 20%;
+    left: 15%;
+  }
+  .sl-item__text {
+    width: 100%;
+    text-align: center;
+  }
+  .slick-list::after {
+    visibility: hidden;
   }
 }
 
