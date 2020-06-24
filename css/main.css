@@ -913,7 +913,11 @@ body {
     padding-right: 93px;
   }
   .slider__item {
-    width: 582px;
+    padding-left: 160px;
+    margin: 0 11px;
+  }
+  .sl-item__icon {
+    left: 55px;
   }
   .sl-item__text {
     width: 350px;
@@ -946,6 +950,10 @@ body {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+  }
+  .nav__sub-container {
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
   .nav__link {
     margin-right: 15px;
@@ -1033,6 +1041,7 @@ body {
     width: 100%;
     padding-left: 15px;
     padding-right: 15px;
+    padding-bottom: 20px;
   }
   .feat1__text {
     width: 100%;
@@ -1043,6 +1052,7 @@ body {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    padding-bottom: 10px;
     padding-top: 0;
     padding-right: 5px;
     padding-left: 5px;
@@ -1081,6 +1091,8 @@ body {
     width: 100%;
     padding-right: 15px;
     padding-left: 15px;
+    padding-bottom: 75px;
+    padding-top: 65px;
   }
   .slider__wrapper {
     width: 100%;
@@ -1140,6 +1152,8 @@ body {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    padding-top: 75px;
+    padding-bottom: 50px;
   }
   .demo__button-more {
     width: 170px;
@@ -1180,6 +1194,7 @@ body {
     padding-top: 50px;
     padding-left: 15px;
     padding-right: 15px;
+    padding-bottom: 20px;
   }
   .footer__contacts {
     -webkit-box-pack: center;
