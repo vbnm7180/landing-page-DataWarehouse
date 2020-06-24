@@ -49,15 +49,13 @@ body {
 
 /*Навигация*/
 
-.nav {}
-
 .nav__container {
-    width: 1120px;
-    margin: 0 auto;
     display: flex;
     flex-direction: row;
     justify-content: left;
     align-items: center;
+    width: 1120px;
+    margin: 0 auto;
     padding: 50px 0;
 }
 
@@ -89,16 +87,14 @@ body {
 
 /*Инфо-блок 1*/
 
-.info1 {}
-
 .info1__container {
     position: relative;
-    width: 1120px;
-    margin: 0 auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: start;
+    width: 1120px;
+    margin: 0 auto;
     padding-top: 80px;
     padding-bottom: 100px;
 }
@@ -136,8 +132,6 @@ body {
 
 /*Инфо-блок2*/
 
-.info2 {}
-
 .info2__container {
     width: 1120px;
     margin: 0 auto;
@@ -169,12 +163,12 @@ body {
 
 .info2__text {
     width: 475px;
+    margin-top: 40px;
     font-family: Avenir;
     font-size: 18px;
     font-weight: 500;
     line-height: 1.6;
     color: #4b5d68;
-    margin-top: 40px;
 }
 
 .info2__img {
@@ -187,15 +181,13 @@ body {
 
 /*Функции 1*/
 
-.feat1 {}
-
 .feat1__container {
-    width: 1120px;
-    margin: 0 auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 1120px;
+    margin: 0 auto;
     padding-top: 75px;
     padding-bottom: 50px;
 }
@@ -224,28 +216,25 @@ body {
 /*Функции 2*/
 
 .feat2__container {
-    width: 1120px;
-    margin: 0 auto;
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
     flex-wrap: wrap;
+    width: 1120px;
+    margin: 0 auto;
     padding-top: 50px;
     padding-bottom: 75px;
 }
 
 .feat2__block {
-    width: 442px;
-    height: 358px;
-    padding-left: 172px;
-    padding-right: 50px;
-    padding-top: 49px;
-    padding-bottom: 33px;
     position: relative;
     display: flex;
     flex-direction: column;
     justify-content: top;
     align-items: start;
+    width: 442px;
+    height: 358px;
+    padding: 49px 50px 33px 172px;
     background-position: bottom right;
 }
 
@@ -257,8 +246,8 @@ body {
 .feat2__block:nth-child(2) {
     background-image: url(/images/feat-bg2.svg);
     margin-left: 145px;
-    background-position: top right;
     margin-bottom: 50px;
+    background-position: top right;
 }
 
 .feat2__block:nth-child(3) {
@@ -286,13 +275,13 @@ body {
 }
 
 .feat2__button {
+    margin-top: auto;
     font-family: Avenir;
     font-size: 16px;
     font-weight: 900;
     line-height: 0.9;
     letter-spacing: 0.08px;
     color: #212353;
-    margin-top: auto;
     background-color: transparent;
 }
 
@@ -324,21 +313,6 @@ body {
 /*Слайдер*/
 
 
-/* Слайдер */
-
-.slick-slider {}
-
-
-/* Слайдер запущен */
-
-.slick-slider.slick-initialized {}
-
-
-/* Слайдер с точками */
-
-.slick-slider.slick-dotted {}
-
-
 /* Ограничивающая оболочка */
 
 .slick-list {
@@ -353,86 +327,22 @@ body {
     display: flex;
 }
 
-
-/* Слайд */
-
-.slick-slide {}
-
-
-/* Слайд активный (показывается) */
-
-.slick-slide.slick-active {}
-
-
-/* Слайд основной */
-
-.slick-slide.slick-current {}
-
-
-/* Слайд по центру */
-
-.slick-slide.slick-center {}
-
-
-/* Клонированный слайд */
-
-.slick-slide.slick-cloned {}
-
-
-/* Стрелка */
-
-.slick-arrow {}
-
-
-/* Стрелка влево */
-
-.slick-arrow.slick-prev {}
-
-
-/* Стрелка вправо */
-
-.slick-arrow.slick-next {}
-
-
-/* Стрелка не активная */
-
-.slick-arrow.slick-disabled {}
-
-
-/* Точки (булиты) */
-
-.slick-dots {}
-
-.slick-dots li {}
-
-
-/* Активная точка */
-
-.slick-dots li.slick-active {}
-
-
-/* Элемент точки */
-
-.slick-dots li button {}
-
-.slider {}
-
 .slider__container {
+    position: relative;
     width: 1120px;
     margin: 0 auto;
     padding-top: 75px;
     padding-bottom: 150px;
-    position: relative;
 }
 
 .slider__wrapper {
-    width: 1120px;
     position: relative;
-    background: #9C69E2;
-    border-radius: 50px;
+    width: 1120px;
     height: 709px;
     padding-top: 249px;
     padding-left: 93px;
+    border-radius: 50px;
+    background: #9C69E2;
 }
 
 .slider__header {
@@ -448,22 +358,20 @@ body {
 }
 
 .slider__item {
-    width: 645px;
-    height: 330px;
-    //margin-right: -73px;
-    //margin-left: 93px;
-    margin-right: 20px;
-    border-radius: 20px;
-    box-shadow: 0 20px 0 0 #8a56db;
-    background-color: #ffffff;
-    padding-top: 60px;
-    padding-bottom: 50px;
-    padding-left: 190px;
     position: relative;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     align-items: start;
+    width: 645px;
+    height: 330px;
+    margin-right: 20px;
+    padding-top: 60px;
+    padding-bottom: 50px;
+    padding-left: 190px;
+    border-radius: 20px;
+    box-shadow: 0 20px 0 0 #8a56db;
+    background-color: #ffffff;
 }
 
 .slick-list::after {
@@ -475,7 +383,6 @@ body {
     right: 0;
     height: 330px;
     pointer-events: none;
-    /*makes the linkes behind clickable.*/
     background-image: linear-gradient(to left, #ffffff, rgba(255, 255, 255, 0));
 }
 
@@ -504,8 +411,8 @@ body {
 }
 
 .sl-item__text {
-    margin-top: 19px;
     width: 385px;
+    margin-top: 19px;
     font-family: Avenir;
     font-size: 18px;
     line-height: 1.8;
@@ -514,10 +421,10 @@ body {
 
 .slider__wrapper .slick-arrow {
     position: absolute;
-    bottom: 60px;
-    font-size: 0;
     width: 42px;
     height: 16px;
+    bottom: 60px;
+    font-size: 0;
 }
 
 .slider__wrapper .slick-arrow.slick-prev {
@@ -537,16 +444,16 @@ body {
 }
 
 .slider__wrapper .slick-dots {
-    display: flex;
     position: absolute;
+    display: flex;
     left: 93px;
     bottom: 60px;
 }
 
 .slider__wrapper .slick-dots li button {
-    margin-right: 10px;
     width: 10px;
     height: 10px;
+    margin-right: 10px;
     font-size: 0;
     background: url(/images/inactive-point.svg) center center no-repeat;
 }
@@ -563,13 +470,13 @@ body {
 }
 
 .demo__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
     width: 1120px;
     margin: 0 auto;
     padding-top: 100px;
     padding-bottom: 75px;
-    display: flex;
-    flex-direction: row;
-    justify-content: start;
 }
 
 .demo__sub-container {
@@ -610,15 +517,13 @@ body {
 
 /*Подвал*/
 
-.footer {}
-
 .footer__container {
+    display: flex;
+    justify-content: space-between;
     width: 1120px;
     margin: 0 auto;
     padding-top: 75px;
     padding-bottom: 96px;
-    display: flex;
-    justify-content: space-between;
 }
 
 .footer__contacts {
@@ -784,6 +689,18 @@ body {
     text-align: center;
 }
 
+//Для картинки в инфо 1
+@media screen and (min-width:1120px) and (max-width:1387px) {
+    .info1__img {
+        left: auto;
+        top: auto;
+        bottom: 100px;
+        right: 0;
+        width: 688px;
+        height: 339px;
+    }
+}
+
 //Планшеты
 @media screen and (min-width:768px) and (max-width:1119px) {
     /*Навигация*/
@@ -798,30 +715,23 @@ body {
     /*Инфо-блок 1*/
     .info1__container {
         width: 768px;
-        padding-left: 15px;
-        padding-right: 15px;
-        padding-top: 60px;
-        padding-bottom: 50px;
+        padding: 60px 15px 50px 15px;
     }
     .info1__header {
         font-size: 60px;
     }
     .info1__img {
+        width: 387px;
+        height: 230px;
         top: auto;
         left: auto;
         right: 0;
         bottom: 100px;
-        width: 387px;
-        height: 230px;
     }
     /*Инфо-блок2*/
-    .info2 {}
     .info2__container {
         width: 768px;
-        padding-right: 15px;
-        padding-left: 15px;
-        padding-top: 60px;
-        padding-bottom: 40px;
+        padding: 60px 15px 40px 15px;
     }
     .info2__block {
         padding-right: 15px;
@@ -942,10 +852,7 @@ body {
     .info1__container {
         width: 100%;
         align-items: center;
-        padding-left: 15px;
-        padding-right: 15px;
-        padding-top: 60px;
-        padding-bottom: 50px;
+        padding: 60px 15px 50px 15px;
     }
     .info1__img {
         display: none;
@@ -968,16 +875,10 @@ body {
     .info2__container {
         width: 100%;
         align-items: center;
-        padding-right: 15px;
-        padding-left: 15px;
-        padding-top: 40px;
-        padding-bottom: 15px;
+        padding: 40px 15px 15px 15px;
     }
     .info2__block {
-        padding-right: 15px;
-        padding-left: 15px;
-        padding-top: 50px;
-        padding-bottom: 50px;
+        padding: 50px 15px;
     }
     .info2__header {
         width: 100%;
@@ -1005,14 +906,10 @@ body {
     .feat2__container {
         width: 100%;
         justify-content: center;
-        padding-bottom: 10px;
-        padding-top: 0;
-        padding-right: 5px;
-        padding-left: 5px;
+        padding: 0px 5px 10px 5px;
     }
     .feat2__block {
         width: 320px;
-        //height: 367px;
         height: 320px;
         background-size: 100% 100%;
         padding: 65px 10px 15px 40px;
@@ -1041,10 +938,7 @@ body {
     /*Слайдер*/
     .slider__container {
         width: 100%;
-        padding-right: 15px;
-        padding-left: 15px;
-        padding-bottom: 75px;
-        padding-top: 65px;
+        padding: 65px 15px 75px 15px;
     }
     .slider__wrapper {
         width: 100%;
@@ -1056,15 +950,14 @@ body {
         padding-left: 10px;
     }
     .slider__item {
-        //width: 100%;
-        height: 100%;
-        padding: 20px 15px;
-        margin-right: 11px;
-        margin-left: 11px;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        height: 100%;
+        padding: 20px 15px;
+        margin-right: 11px;
+        margin-left: 11px;
     }
     .sl-item__icon {
         position: static;
@@ -1082,11 +975,11 @@ body {
     }
     /*Демо*/
     .demo__container {
-        width: 100%;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        width: 100%;
         padding-top: 75px;
         padding-bottom: 50px;
     }
@@ -1112,15 +1005,12 @@ body {
     }
     /*Подвал*/
     .footer__container {
-        width: 100%;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        padding-top: 50px;
-        padding-left: 15px;
-        padding-right: 15px;
-        padding-bottom: 20px;
+        width: 100%;
+        padding: 50px 15px 20px 15px;
     }
     .footer__contacts {
         justify-content: center;
@@ -1178,17 +1068,5 @@ body {
     }
     .copyright-mobile {
         display: flex;
-    }
-}
-
-//Для картинки в инфо 1
-@media screen and (min-width:1120px) and (max-width:1387px) {
-    .info1__img {
-        left: auto;
-        top: auto;
-        bottom: 100px;
-        right: 0;
-        width: 688px;
-        height: 339px;
     }
 }
