@@ -748,6 +748,9 @@ body {
     width: 50px;
     height: 50px;
     background-image: url(/images/facebook-inactive.svg);
+    &:hover {
+        background-image: url(/images/facebook-active.svg);
+    }
 }
 
 .f-social__twitter {
@@ -755,6 +758,9 @@ body {
     width: 50px;
     height: 50px;
     background-image: url(/images/twitter-inactive.svg);
+    &:hover {
+        background-image: url(/images/twitter-active.svg);
+    }
 }
 
 .f-social__instagram {
@@ -762,6 +768,9 @@ body {
     width: 50px;
     height: 50px;
     background-image: url(/images/instagram-inactive.svg);
+    &:hover {
+        background-image: url(/images/instagram-active.svg);
+    }
 }
 
 .copyright-mobile {
@@ -879,6 +888,17 @@ body {
     /*Подвал*/
     .footer__container {
         width: 768px;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    .f-social__twitter {
+        background-image: url(/images/twitter-active.svg);
+    }
+    .f-social__facebook {
+        background-image: url(/images/facebook-active.svg);
+    }
+    .f-social__instagram {
+        background-image: url(/images/instagram-active.svg);
     }
 }
 
@@ -1146,8 +1166,15 @@ body {
         margin-right: 0;
     }
     .f-social__twitter {
+        background-image: url(/images/twitter-active.svg);
         margin-right: 10px;
         margin-left: 10px;
+    }
+    .f-social__facebook {
+        background-image: url(/images/facebook-active.svg);
+    }
+    .f-social__instagram {
+        background-image: url(/images/instagram-active.svg);
     }
     .copyright-mobile {
         display: flex;
