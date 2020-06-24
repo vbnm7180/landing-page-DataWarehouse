@@ -822,6 +822,17 @@ body {
   background-image: url(/images/instagram-inactive.svg);
 }
 
+.copyright-mobile {
+  display: none;
+  margin-top: 20px;
+  font-family: Avenir;
+  font-size: 12px;
+  line-height: 1.8;
+  letter-spacing: 0.12px;
+  color: #212353;
+  text-align: center;
+}
+
 @media screen and (min-width: 768px) and (max-width: 1119px) {
   /*Навигация*/
   .nav__container {
@@ -1166,6 +1177,38 @@ body {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    padding-top: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .footer__contacts {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .f-contacts__logo {
+    font-size: 15px;
+    line-height: 2.5;
+  }
+  .f-contacts__address {
+    margin-top: 20px;
+  }
+  .f-contacts__mail {
+    margin-bottom: 30px;
+  }
+  .f-about__header {
+    margin-bottom: 30px;
+  }
+  .f-contacts__address,
+  .f-contacts__mail {
+    font-size: 14px;
+    text-align: center;
+  }
+  .f-contacts__copyright {
+    display: none;
   }
   .f-help__links-block,
   .f-about__links-block,
@@ -1188,6 +1231,11 @@ body {
   .f-social__twitter {
     margin-right: 10px;
     margin-left: 10px;
+  }
+  .copyright-mobile {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
   }
 }
 
